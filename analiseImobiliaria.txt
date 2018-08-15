@@ -13,13 +13,34 @@ Overview do dono da imobiliaria
 
 Cadastro de pessoa
 	Tipo de pessoa 
-		Fiador
-		Locatario - (Dono do imóvel)
-		Locador,Inquilino
-		Imobiliria
+		Fiador-Colaborador
+		Locatario - (Dono do imóvel) - Fornecedor
+		Locador,Inquilino - Cliente
+		Imobiliria - Cliente/Fornecedor
 	Tipo ( Física(CPF), Juridica(CNPJ) )
 	CPF/CNPJ
 	Nome
+	    Fantasia
+	    Completo
+	Atividade
+	Profissão
+	Estado Civíl
+		Casado
+			Regime de Casamento
+	Nacionalidade
+	Pai
+	Mae
+	Inscrição
+		Inscrição Municipal
+		Inscrição Estadual
+	Local
+	Data de Nascimento
+	E-mail Principal
+	E-mail Secundario
+	Web Site
+	Senha para acesso Web
+	Tags
+	Obs
 	Pais ( PAISES )
 	Estado ( ESTADOS )
 	Cidade (CIDADES)
@@ -31,8 +52,44 @@ Cadastro de pessoa
 	Complemento
 	Número
 	Endereço
+		Pessoal
+			CEP
+				( LOGRADOUROS, CIDADE, CEP, Bairro, Rua e 					tipo de logradouro (Rua, Vilarejo, ) )
+			Bairro, 
+			Rua, 
+			Tipo, 
+			Cidade
+			Estado
+			Complemento
+			Número
+			Telefone
+				Fixo
+				Celular
+					Operadora
+			
+		Comercial
+			CEP
+				( LOGRADOUROS, CIDADE, CEP, Bairro, Rua e 					tipo de logradouro (Rua, Vilarejo, ) )
+
+			Empresa
+			Endereço
+			Bairro
+			Cidade
+			Estado
+			Telefone
+	
 Cadastro de atendimento
 	Cliente/pessoa
+	E-mail
+	Celular
+	Telefone Fixo
+	CPF
+	Comentarios Iniciais
+	Entrada
+		Recepção
+		Telefone
+		E-mail
+	Midia	
 	Data de Cadastro 
 	Data da visita		
 	Pretenção
@@ -46,8 +103,10 @@ Cadastro de atendimento
 Cadastro de imóveis
 	Código 
 	Descrição
-	Descrição Detalhada ( CAsa com duas garagens de 20m² 
+	Descrição Detalhada ( CAsa com duas garagens de 20m² )
+	Negócio(Venda, Locação)
 	Tipo do imóvel (Apartamento, Casa, Terreno)
+	Finalidade (Comercial, Residencial, Rural)
 	Pais ( PAISES )
 	Estado ( ESTADOS )
 	Cidade (CIDADES)
@@ -59,6 +118,7 @@ Cadastro de imóveis
 	Complemento
 	Número
 	Endereço	
+	Empreendimento
 	Locatarios/Responsavel/Dono/
 		Pessoa
 	Códigos de integração
@@ -66,8 +126,126 @@ Cadastro de imóveis
 		Código
 	Metragem útil;
 	MEtragem Total;
-
+	Caracteristicas
+		Principais
+			Dormitórios
+			Banheiros
+			Garagens
+			Ano e/ou Entrega da Obra
+			Churrasqueira Privada
+			Fase da Obra
+			Área Total
+			Área Útil
+			Área do Terreno
+			Andar
+			Piscina
+		Geral
+			Varanda
+			Cozinha
+			Suite Tipo
+			Salas
+			Sacada Fechada
+			Niveis
+			Sol
+			Elevadores
+			Muro
+			Portão
+			Cobretura
+			Terraço
+			Salão De Festa
+			Lavabo
+			Dep.Empregada
+			Living
+			Deposito
+			Em Condominio
+			Alarme
+			Móveis Embutidos
+			Fechadura Eletrônica
+			Preparação Para Split
+			Bicicletário
+			Quadra Poliesportiva
+			PlayGround
+			Guarita
+			Cerca Elétrica
+			Fitness
+			Bosque
+			CFTV
+			Churrasqueira Social
+			Sauna
+			MassaCorrida
+			Sala De Jogos
+			Aquecimento
+			Piso
+			Mobiliado
+			Aspécto
+			Posição
+			Pavimento
+			Pintura
+			Nivel da Rua
+			Topografia
+			Decorado
+			Unidades Por Andar
+			Closet
+			Frentes 
+			Fundos
+	Valores
+		Valor de Venda
+		IPTU
+		Aceita Permuta
+		Aceita Financiameto
+		Escriturado
+		Averbado
+		Valor de Locação
+		Condominio
+		Financiado
+		Saldo Devedor
+		Nº de Parcelas Restantes
+	Possivel Cadastro De imagens
+		Foto
+		Descrição
+		Codigo
+	Documentos
+		Cartas e Contratos
+		Gestão de Documentos
+	Detalhes
+		Chaveiro
+		Numero de Chaves
+		Nº da Matricula
+		Copia da Matricula
+		Nº Registro
+		Nº da Chave
+		Local da Chave
+		Nº Habite-se
+		Síndico
+		Zelador
+		OBS
+		Placa
+			Permite 
+			Com 
+			Tipo
+		Garagem Nº
+		Deposito Nº
+		Copia IPTU
+		Nº Cadastro IPTU
+		Nº UC
+		Nº CDC
+		Adm Condomínio
+		Fase da Obra
+		Ocupado
+		Ocupação
+		Documentação
+	Anexos
+		Adição
+		Descrição
+		Arquivo
+		Criação		
+		Editado		
+	CRM
+		Nova Postagem
+		Para
+		Relacionado com...
 	
+
 Cadastro do contrato (Venda)
 	Tipo do contrato
 		Locação, Venda
@@ -113,8 +291,21 @@ Modelos de contrato
 	@PERCENTUAL
 
 
+Cadastro De Visitas:Imóvel
+	Data de Cadastro
+	Data da Visita
+	Corretor
+	Cliente
+	Solicitante
+	OBS
+	Retorno
 
-
+Cadastro de Proposta:Imóvel
+	Numero
+	Data
+	Corretor
+	Cliente
+	Situaçao;
 
 
 
