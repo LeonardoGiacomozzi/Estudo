@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using WebApplication1.Models.Pessoas;
+using WebApplication1.Models.CadastroImovel.ListaDocumentos;
+using WebApplication1.Models.CadastroImovel.ListaDetalhes;
 
 namespace WebApplication1.Models.CadastroImovel
 {

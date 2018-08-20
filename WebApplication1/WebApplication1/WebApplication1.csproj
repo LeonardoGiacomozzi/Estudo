@@ -152,18 +152,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\CadastroImovel\Anexo.cs" />
+    <Compile Include="Models\CadastroImovel\AnexosFolder\Anexo.cs" />
     <Compile Include="Models\CadastroImovel\Caracteristica.cs" />
     <Compile Include="Models\CadastroImovel\CodigoIntegracao.cs" />
-    <Compile Include="Models\CadastroImovel\Crm.cs" />
-    <Compile Include="Models\CadastroImovel\Detalhes.cs" />
-    <Compile Include="Models\CadastroImovel\Documentos.cs" />
+    <Compile Include="Models\CadastroImovel\CRMFolder\Crm.cs" />
+    <Compile Include="Models\CadastroImovel\DetalhesFolder\Detalhes.cs" />
+    <Compile Include="Models\CadastroImovel\DocumentosFolder\Documentos.cs" />
     <Compile Include="Models\CadastroImovel\EFinalidadeImovel.cs" />
     <Compile Include="Models\CadastroImovel\EtipoDeImovel.cs" />
     <Compile Include="Models\CadastroImovel\ETipoNegocio.cs" />
     <Compile Include="Models\CadastroImovel\Imovel.cs" />
-    <Compile Include="Models\CadastroImovel\Valores\ValorVenda.cs" />
-    <Compile Include="Models\CadastroImovel\Valores\Valor.cs" />
+    <Compile Include="Models\CadastroImovel\ValoresFolder\ValorVenda.cs" />
+    <Compile Include="Models\CadastroImovel\ValoresFolder\Valor.cs" />
     <Compile Include="Models\CadastroPessoa\Pessoa.cs" />
     <Compile Include="Models\Endereco.cs" />
     <Compile Include="Models\CadastroPessoa\PessoaFisica.cs" />
