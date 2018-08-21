@@ -153,7 +153,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CadastroImovel\AnexosFolder\Anexo.cs" />
-    <Compile Include="Models\CadastroImovel\Caracteristica.cs" />
+    <Compile Include="Models\CadastroImovel\Caracteristicas\CaracteristicaPrincipal.cs" />
+    <Compile Include="Models\CadastroImovel\Caracteristicas\CaracteristicasGerais.cs" />
+    <Compile Include="Models\CadastroImovel\Caracteristicas\ETipoDeDado.cs" />
+    <Compile Include="Models\CadastroImovel\Caracteristicas\ICaracteristica.cs" />
     <Compile Include="Models\CadastroImovel\CodigoIntegracao.cs" />
     <Compile Include="Models\CadastroImovel\CRMFolder\Crm.cs" />
     <Compile Include="Models\CadastroImovel\DetalhesFolder\Detalhes.cs" />
