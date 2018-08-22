@@ -2,7 +2,7 @@
 {
     public enum EFinalidadeImovel
     {
-        Comercio,
+        Comercial,
         Residencial,
         Rural
 

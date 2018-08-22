@@ -9,8 +9,8 @@ namespace WebApplication1.Models.Pessoas
     {
         public ETipoPessoa eTipo { get; private set; }
         public string NomeEmpresa { get; set; }
-        public string Nacionalidade { get; set; }
-        public string NomeResponsavel { get; set; }
+       // razão social public string Nacionalidade { get; set; }
+       //CPF e RG do responsável public string NomeResponsavel { get; set; }
         public string InscricaoMunicipal { get; set; }
         public string InscricaoEstadual { get; set; }
         public string Cnpj { get; set; }
@@ -19,8 +19,8 @@ namespace WebApplication1.Models.Pessoas
         public string WebSite { get; set; }
         public string Observacao { get; set; }
         public Endereco Endereco{ get; set; }
-        public string TelefoneFixo { get; set; }
-        public string TelefoneCelular { get; set; }
-        public string Operadora { get; set; }
+        public string Telefone { get; set; }
+        public string Celular { get; set; }
+        //public string Operadora { get; set; }
     }
 }
